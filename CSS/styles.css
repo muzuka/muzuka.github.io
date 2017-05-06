@@ -1,0 +1,87 @@
+body {
+    background: #FFEAAC;
+}
+
+div {
+     border: 1px solid black;
+}
+
+/*
+    Header styles
+*/
+#HeaderShell {
+    width: 100%;
+    height: 250px;
+}
+
+header div {
+    float: left;
+}
+
+.NameText {
+    text-align: center;
+}
+
+#Name {
+    margin: 50px 100px;
+    width: 25%;
+}
+
+#NavBar {
+    margin: 100px 10px;
+    width: 50%;
+}
+
+.NavLink {
+    margin: 0px 50px;
+}
+/*
+    Main styles
+*/
+
+#ProfilePic {
+    height: 25%;
+    width: 25%;
+    clip: rect(100px, 0, 100px, 0);
+    float: left;
+    border-radius: 25px;
+    margin: 50px 50px;
+}
+
+#ParagraphBox {
+    float: right;
+    width: 50%;
+    height: 50%;
+    margin: 100px 100px;
+}
+
+/*
+    Resume styles
+*/
+.ResumeCategory {
+    width: 75%;
+}
+
+.ResumeCategory p {
+    text-align: center;
+}
+
+/*
+    Footer styles
+*/
+#FooterBar {
+    width: 100%;
+    margin: 25px 0px;
+    padding: 10px 0px;
+    float: left;
+}
+
+.FooterItem {
+    margin: 0px 50px;
+    width: 10%;
+    float: left;
+}
+
+footer div div p {
+    text-align: center;
+}
