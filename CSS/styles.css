@@ -33,7 +33,7 @@ header div {
 }
 
 .NavLink {
-    margin: 0px 50px;
+    margin: 0 50px;
 }
 /*
     Main styles
@@ -48,11 +48,19 @@ header div {
     margin: 50px 50px;
 }
 
-#ParagraphBox {
+#AboutMeBox {
     float: right;
     width: 50%;
-    height: 50%;
+    height: 500px;
     margin: 100px 100px;
+}
+
+#AboutMeBox h1 {
+    font-size: 64px;
+}
+
+.AboutMeEntry {
+    font-size: 32px;
 }
 
 /*
@@ -60,10 +68,19 @@ header div {
 */
 .ResumeCategory {
     width: 75%;
+    border-left: none;
+    border-right: none;
+    margin: 10px 0;
 }
 
-.ResumeCategory p {
+.ResumeCategory h2 {
     text-align: center;
+}
+
+.ResumeParagraph {
+    text-align: justify;
+    margin: 0 auto;
+    width: 400px;
 }
 
 /*
@@ -71,13 +88,13 @@ header div {
 */
 #FooterBar {
     width: 100%;
-    margin: 25px 0px;
-    padding: 10px 0px;
+    margin: 25px 0;
+    padding: 10px 0;
     float: left;
 }
 
 .FooterItem {
-    margin: 0px 50px;
+    margin: 0 50px;
     width: 10%;
     float: left;
 }
