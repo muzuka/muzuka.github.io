@@ -73,6 +73,10 @@ header div {
     margin: 10px 0;
 }
 
+.ResumeCategory div {
+    padding: 10px;
+}
+
 .ResumeCategory h2 {
     text-align: center;
 }
@@ -84,6 +88,14 @@ header div {
 }
 
 /*
+    Project styles
+*/
+
+.ProjectEntry {
+    padding: 10px;
+}
+
+/*
     Footer styles
 */
 #FooterBar {
@@ -91,12 +103,14 @@ header div {
     margin: 25px 0;
     padding: 10px 0;
     float: left;
+    background-color: black;
 }
 
 .FooterItem {
     margin: 0 50px;
     width: 10%;
     float: left;
+    color: white;
 }
 
 footer div div p {
