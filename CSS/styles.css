@@ -6,12 +6,17 @@ div {
      border: 1px solid black;
 }
 
+.Title {
+    margin: 10px auto;
+    width: 25%;
+}
+
 /*
     Header styles
 */
 #HeaderShell {
     width: 100%;
-    height: 250px;
+    padding: 25px;
 }
 
 header div {
@@ -20,20 +25,22 @@ header div {
 
 .NameText {
     text-align: center;
+    margin: 1px;
 }
 
 #Name {
-    margin: 50px 100px;
+    margin: 10px 10px;
     width: 25%;
 }
 
 #NavBar {
-    margin: 100px 10px;
+    margin: 10px 10px;
     width: 50%;
 }
 
 .NavLink {
     margin: 0 50px;
+    text-decoration: none;
 }
 /*
     Main styles
@@ -52,7 +59,8 @@ header div {
     float: right;
     width: 50%;
     height: 500px;
-    margin: 100px 100px;
+    margin: 70px 70px;
+    padding: 20px;
 }
 
 #AboutMeBox h1 {
@@ -68,9 +76,8 @@ header div {
 */
 .ResumeCategory {
     width: 75%;
-    border-left: none;
-    border-right: none;
-    margin: 10px 0;
+    border: none;
+    margin: 10px auto;
 }
 
 .ResumeCategory div {
@@ -81,10 +88,20 @@ header div {
     text-align: center;
 }
 
-.ResumeParagraph {
+#AboutMeParagraph {
     text-align: justify;
     margin: 0 auto;
     width: 400px;
+}
+
+.CategoryTitle {
+    height: 100%;
+    width: 25%;
+}
+
+.CategoryContent {
+    height: auto;
+    width: auto;
 }
 
 /*
@@ -93,6 +110,8 @@ header div {
 
 .ProjectEntry {
     padding: 10px;
+    margin: 10px auto;
+    width: 25%;
 }
 
 /*
