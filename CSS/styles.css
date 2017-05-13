@@ -16,11 +16,7 @@ div {
 */
 #HeaderShell {
     width: 100%;
-    padding: 25px;
-}
-
-header div {
-    float: left;
+    padding: 10px 0;
 }
 
 .NameText {
@@ -29,17 +25,17 @@ header div {
 }
 
 #Name {
-    margin: 10px 10px;
+    margin: 10px auto;
     width: 25%;
 }
 
 #NavBar {
-    margin: 10px 10px;
-    width: 50%;
+    margin: 10px auto;
+    width: 35%;
 }
 
 .NavLink {
-    margin: 0 50px;
+    margin: 0 25px;
     text-decoration: none;
 }
 /*
@@ -49,7 +45,6 @@ header div {
 #ProfilePic {
     height: 25%;
     width: 25%;
-    clip: rect(100px, 0, 100px, 0);
     float: left;
     border-radius: 25px;
     margin: 50px 50px;
@@ -59,7 +54,7 @@ header div {
     float: right;
     width: 50%;
     height: 500px;
-    margin: 70px 70px;
+    margin: 50px 70px;
     padding: 20px;
 }
 
