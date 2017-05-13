@@ -1,0 +1,132 @@
+body {
+    background: #FFEAAC;
+}
+
+div {
+     border: 1px solid black;
+}
+
+.Title {
+    margin: 10px auto;
+    width: 25%;
+}
+
+/*
+    Header styles
+*/
+#HeaderShell {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.NameText {
+    text-align: center;
+    margin: 1px;
+}
+
+#Name {
+    margin: 10px auto;
+    width: 25%;
+}
+
+#NavBar {
+    margin: 10px auto;
+    width: 35%;
+}
+
+.NavLink {
+    margin: 0 25px;
+    text-decoration: none;
+}
+/*
+    Main styles
+*/
+
+#ProfilePic {
+    height: 25%;
+    width: 25%;
+    float: left;
+    border-radius: 25px;
+    margin: 50px 50px;
+}
+
+#AboutMeBox {
+    float: right;
+    width: 50%;
+    height: 500px;
+    margin: 50px 70px;
+    padding: 20px;
+}
+
+#AboutMeBox h1 {
+    font-size: 64px;
+}
+
+.AboutMeEntry {
+    font-size: 32px;
+}
+
+/*
+    Resume styles
+*/
+.ResumeCategory {
+    width: 75%;
+    border: none;
+    margin: 10px auto;
+}
+
+.ResumeCategory div {
+    padding: 10px;
+}
+
+.ResumeCategory h2 {
+    text-align: center;
+}
+
+#AboutMeParagraph {
+    text-align: justify;
+    margin: 0 auto;
+    width: 400px;
+}
+
+.CategoryTitle {
+    height: 100%;
+    width: 25%;
+}
+
+.CategoryContent {
+    height: auto;
+    width: auto;
+}
+
+/*
+    Project styles
+*/
+
+.ProjectEntry {
+    padding: 10px;
+    margin: 10px auto;
+    width: 25%;
+}
+
+/*
+    Footer styles
+*/
+#FooterBar {
+    width: 100%;
+    margin: 25px 0;
+    padding: 10px 0;
+    float: left;
+    background-color: black;
+}
+
+.FooterItem {
+    margin: 0 50px;
+    width: 10%;
+    float: left;
+    color: white;
+}
+
+footer div div p {
+    text-align: center;
+}
