@@ -1,5 +1,14 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
     background: #FFEAAC;
+    font-size: 100%;
 }
 
 div {
@@ -29,7 +38,7 @@ div {
     width: 25%;
 }
 
-#NavBar {
+nav {
     margin: 10px auto;
     width: 35%;
 }
@@ -90,8 +99,15 @@ div {
 }
 
 .CategoryTitle {
-    height: 100%;
-    width: 25%;
+    height: 120px;
+    width: 120px;
+    background: black;
+    border-radius: 100px;
+}
+
+.CategoryTitle h3 {
+    margin-top: 25px;
+    color: white;
 }
 
 .CategoryContent {
