@@ -35,15 +35,18 @@ body {
 #Name {
     margin: 10px auto;
     width: 25%;
+    border-bottom: 1px solid brown;
 }
 
 nav {
-    margin: 10px auto;
+    margin: 0 auto;
     width: 35%;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 .NavLink {
-    margin: 0 25px;
+    margin: 25px 25px;
     text-decoration: none;
 }
 /*
@@ -62,12 +65,12 @@ nav {
     float: right;
     width: 50%;
     height: 500px;
-    margin: 50px 70px;
-    padding: 20px;
+    margin: 50px 35px;
 }
 
 #AboutMeBox h1 {
     font-size: 64px;
+    margin: 0;
 }
 
 .AboutMeEntry {
@@ -122,6 +125,7 @@ nav {
     padding: 10px;
     margin: 10px auto;
     width: 25%;
+    border: 1px solid black;
 }
 
 /*
