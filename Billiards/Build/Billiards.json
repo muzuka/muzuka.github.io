@@ -4,6 +4,7 @@
 "asmCodeUrl": "Billiards.asm.code.unityweb",
 "asmMemoryUrl": "Billiards.asm.memory.unityweb",
 "asmFrameworkUrl": "Billiards.asm.framework.unityweb",
+"backgroundUrl": "Billiards.jpg",
 "splashScreenStyle": "Dark",
-"backgroundColor": "#231F20"
+"backgroundColor": "#FFFFFF"
 }
