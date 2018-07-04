@@ -7,14 +7,14 @@ html {
 }
 
 body {
-    background: #FFEAAC;
+    background: #ffffff;
 }
 
 /*div {
      border: 1px solid black;
 }*/
 
-.Title {
+.title {
     margin: 10px auto;
     width: 25%;
 }
@@ -22,106 +22,113 @@ body {
 /*
     Header styles
 */
-#HeaderShell {
-    width: 100%;
+#header-shell {
     padding: 10px 0;
 }
 
-.NameText {
+.name-text {
     text-align: center;
     margin: 1px;
 }
 
-#Name {
+#name {
     margin: 10px auto;
     width: 25%;
     border-bottom: 1px solid brown;
 }
 
-nav {
-    margin: 0 auto;
-    width: 35%;
+#nav-box {
+    width: 50%;
+    margin: auto;
     font-weight: bold;
     font-size: 16px;
+    background-color: lightblue;
 }
 
-.NavLink {
+.nav-link {
     margin: 25px 25px;
     text-decoration: none;
 }
+
 /*
     Main styles
 */
-
-#ProfilePic {
-    height: 25%;
-    width: 25%;
-    float: left;
+#profile-pic {
+    height: 350px;
     border-radius: 25px;
     margin: 50px 50px;
 }
 
-#AboutMeBox {
-    float: right;
-    width: 50%;
-    height: 500px;
-    margin: 50px 35px;
+#about-me-box {
+    width: auto;
+    float: left;
+    position: relative;
+    background-color: lightblue;
 }
 
-#AboutMeBox h1 {
+#about-me-box h1 {
     font-size: 64px;
     margin: 0;
 }
 
-.AboutMeEntry {
+.about-me-entry {
     font-size: 32px;
+}
+
+#projects {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+#center-content {
+    width: 50%;
+    margin: 0 auto;
 }
 
 /*
     Resume styles
 */
-.ResumeCategory {
-    width: 75%;
-    border: none;
+#resume-wrapper {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.resume-category {
     margin: 10px auto;
 }
 
-.ResumeCategory div {
+.resume-category div {
     padding: 10px;
 }
 
-.ResumeCategory h2 {
+.resume-category h2 {
     text-align: center;
 }
 
-#AboutMeParagraph {
-    text-align: justify;
-    margin: 0 auto;
-    width: 400px;
+.category-title {
+    height: 90px;
+    width: 150px;
+    background: lightblue;
 }
 
-.CategoryTitle {
-    height: 120px;
-    width: 120px;
-    background: black;
-    border-radius: 100px;
-}
-
-.CategoryTitle h3 {
-    margin-top: 25px;
+.category-title h3 {
     color: white;
 }
 
-.CategoryContent {
+.category-content {
     height: auto;
     width: auto;
+}
+
+.work-entry {
+    width: 800px;
 }
 
 /*
     Project styles
 */
-
-.ProjectEntry {
+.project-entry {
     padding: 10px;
     margin: 10px auto;
     width: 25%;
@@ -131,7 +138,7 @@ nav {
 /*
     Footer styles
 */
-#FooterBar {
+#footer-bar {
     width: 100%;
     margin: 25px 0;
     padding: 10px 0;
@@ -139,7 +146,7 @@ nav {
     background-color: black;
 }
 
-.FooterItem {
+.footer-item {
     margin: 0 50px;
     width: 10%;
     float: left;
