@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    background: #ffffff;
+    background: #FFEAAC;
 }
 
 /*div {
@@ -42,12 +42,6 @@ body {
     margin: auto;
     font-weight: bold;
     font-size: 16px;
-    background-color: lightblue;
-}
-
-.nav-link {
-    margin: 25px 25px;
-    text-decoration: none;
 }
 
 /*
@@ -63,7 +57,6 @@ body {
     width: auto;
     float: left;
     position: relative;
-    background-color: lightblue;
 }
 
 #about-me-box h1 {
