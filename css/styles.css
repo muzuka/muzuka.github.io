@@ -44,6 +44,11 @@ body {
     font-size: 16px;
 }
 
+.btn {
+    background-color: #d6acff;
+    border-color: #8f75a8;
+}
+
 /*
     Main styles
 */
@@ -71,7 +76,6 @@ body {
 #projects {
     width: 50%;
     margin: 0 auto;
-    display: block;
 }
 
 #center-content {
