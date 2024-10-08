@@ -7,12 +7,9 @@ html {
 }
 
 body {
-    background: #FFEAAC;
+    background: white;
+    font-family: "Roboto", Arial, sans-serif;
 }
-
-/*div {
-     border: 1px solid black;
-}*/
 
 .title {
     margin: 10px auto;
@@ -22,9 +19,6 @@ body {
 /*
     Header styles
 */
-#header-shell {
-    padding: 10px 0;
-}
 
 .name-text {
     text-align: center;
@@ -44,14 +38,37 @@ body {
     font-size: 16px;
 }
 
-.btn {
-    background-color: #d6acff;
-    border-color: #8f75a8;
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0d86f8;
+}
+
+.navbar-nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 0;
+}
+
+.nav-item {
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    position: relative;
 }
 
 /*
     Main styles
 */
+
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 #profile-pic {
     height: 350px;
     border-radius: 25px;
@@ -67,10 +84,6 @@ body {
 #about-me-box h1 {
     font-size: 64px;
     margin: 0;
-}
-
-.about-me-entry {
-    font-size: 32px;
 }
 
 #projects {
