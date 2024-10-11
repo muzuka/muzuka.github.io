@@ -11,6 +11,10 @@ body {
     font-family: "Roboto", Arial, sans-serif;
 }
 
+a {
+    color: white;
+}
+
 .title {
     margin: 10px auto;
     width: 25%;
@@ -43,7 +47,7 @@ body {
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
-    background-color: #B2272E;
+    background-color: #a0a0a0;
 }
 
 .fixed-top {
@@ -53,9 +57,11 @@ body {
     left: 0;
 }
 
+.navbot {
+    height: 100%;
+}
+
 .navbar-nav {
-    padding-top: 20px;
-    padding-bottom: 20px;
     margin-right: 0;
     list-style-type: none;
     overflow: hidden;
@@ -65,9 +71,10 @@ body {
 .nav-item {
     font-size: 15px;
     font-weight: 500;
-    color: white;
     position: relative;
-    padding: 16px;
+    margin: 16px;
+    padding: 10px;
+    background-color: rgb(87, 87, 255);
 }
 
 /*
@@ -84,7 +91,8 @@ body {
 }
 
 #profile-pic {
-    height: 350px;
+    height: 50%;
+    width: 50%;
     border-radius: 25px;
     margin: 50px 50px;
 }
