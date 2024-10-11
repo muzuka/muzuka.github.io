@@ -40,16 +40,26 @@ body {
 
 .navbar {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
-    background-color: #0d86f8;
+    background-color: #B2272E;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 .navbar-nav {
     padding-top: 20px;
     padding-bottom: 20px;
     margin-right: 0;
+    list-style-type: none;
+    overflow: hidden;
+    flex-direction: row;
 }
 
 .nav-item {
@@ -57,14 +67,18 @@ body {
     font-weight: 500;
     color: white;
     position: relative;
+    padding: 16px;
 }
 
 /*
     Main styles
 */
 
-.container {
+.ftco-section {
     width: 100%;
+}
+
+.container {
     margin-right: auto;
     margin-left: auto;
 }
@@ -75,8 +89,7 @@ body {
     margin: 50px 50px;
 }
 
-#about-me-box {
-    width: auto;
+#about {
     float: left;
     position: relative;
 }
@@ -89,6 +102,11 @@ body {
 #projects {
     width: 50%;
     margin: 0 auto;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #center-content {
@@ -139,10 +157,11 @@ body {
     Project styles
 */
 .project-entry {
-    padding: 10px;
-    margin: 10px auto;
-    width: 25%;
     border: 1px solid black;
+    width: 100%;
+    height: 350px;
+    margin-bottom: 25px;
+    position: relative;
 }
 
 /*
