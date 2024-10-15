@@ -1,10 +1,4 @@
-html {
-    box-sizing: border-box;
-}
 
-*, *:before, *:after {
-    box-sizing: inherit;
-}
 
 body {
     background: white;
@@ -13,11 +7,6 @@ body {
 
 a {
     color: white;
-}
-
-.title {
-    margin: 10px auto;
-    width: 25%;
 }
 
 /*
@@ -81,8 +70,11 @@ a {
     Main styles
 */
 
+
+
 .ftco-section {
     width: 100%;
+    padding-top: 20px;
 }
 
 .container {
@@ -91,35 +83,35 @@ a {
 }
 
 #profile-pic {
-    height: 50%;
-    width: 50%;
-    border-radius: 25px;
-    margin: 50px 50px;
+    flex: 1;
+    margin-right: 20px;
+}
+
+#profile-desc {
+    flex: 2;
+    padding: 0 20px;
+}
+
+#profile-pic img {
+    height: auto;
+    width: 200px;
+    border-radius: 50%;
+    margin: 0;
 }
 
 #about {
-    float: left;
-    position: relative;
+    margin-top: 80px;
+}
+
+#about container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #about-me-box h1 {
     font-size: 64px;
     margin: 0;
-}
-
-#projects {
-    width: 50%;
-    margin: 0 auto;
-}
-
-.grid {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#center-content {
-    width: 50%;
-    margin: 0 auto;
 }
 
 /*
@@ -164,17 +156,29 @@ a {
 /*
     Project styles
 */
+
+.title {
+    width: 25%;
+}
+
 .project-entry {
     border: 1px solid black;
     width: 500px;
     height: auto;
     margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
     position: relative;
 }
 
 .project-entry img {
     width: 100%;
     height: auto;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /*
