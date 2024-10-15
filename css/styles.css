@@ -1,12 +1,11 @@
 
 
 body {
-    background: white;
     font-family: "Roboto", Arial, sans-serif;
 }
 
 a {
-    color: white;
+    color: black;
 }
 
 /*
@@ -36,7 +35,7 @@ a {
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
-    background-color: #a0a0a0;
+    background-color: #38414D;
 }
 
 .fixed-top {
@@ -48,6 +47,10 @@ a {
 
 .navbot {
     height: 100%;
+}
+
+.navtop h1 {
+    color: white;
 }
 
 .navbar-nav {
@@ -63,14 +66,13 @@ a {
     position: relative;
     margin: 16px;
     padding: 10px;
-    background-color: rgb(87, 87, 255);
+    border-radius: 10%;
+    background-color: white;
 }
 
 /*
     Main styles
 */
-
-
 
 .ftco-section {
     width: 100%;
@@ -85,6 +87,7 @@ a {
 #profile-pic {
     flex: 1;
     margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 #profile-desc {
@@ -96,11 +99,12 @@ a {
     height: auto;
     width: 200px;
     border-radius: 50%;
+    border: 1px solid black;
     margin: 0;
 }
 
 #about {
-    margin-top: 80px;
+    margin-top: 100px;
 }
 
 #about container {
@@ -112,6 +116,38 @@ a {
 #about-me-box h1 {
     font-size: 64px;
     margin: 0;
+}
+
+/*
+    Project styles
+*/
+
+.title {
+    width: 25%;
+}
+
+.project-entry {
+    border: 1px solid black;
+    width: 500px;
+    height: auto;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.project-entry img {
+    width: 100%;
+    height: auto;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#projects {
+    background-color: #F9F9F9;
 }
 
 /*
@@ -151,34 +187,6 @@ a {
 
 .work-entry {
     width: 800px;
-}
-
-/*
-    Project styles
-*/
-
-.title {
-    width: 25%;
-}
-
-.project-entry {
-    border: 1px solid black;
-    width: 500px;
-    height: auto;
-    margin-bottom: 25px;
-    margin-left: 10px;
-    margin-right: 10px;
-    position: relative;
-}
-
-.project-entry img {
-    width: 100%;
-    height: auto;
-}
-
-.grid {
-    display: flex;
-    flex-wrap: wrap;
 }
 
 /*
