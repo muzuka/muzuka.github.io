@@ -127,23 +127,21 @@ a {
 }
 
 .project-entry {
-    border: 1px solid black;
-    width: 500px;
+    width: auto;
     height: auto;
-    margin-bottom: 25px;
-    margin-left: 10px;
-    margin-right: 10px;
-    position: relative;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
 }
 
 .project-entry img {
-    width: 100%;
+    width: 40%;
     height: auto;
+    margin: 10px;
 }
 
-.grid {
-    display: flex;
-    flex-wrap: wrap;
+.project-desc {
+    margin: 0px 20px;
 }
 
 #projects {
