@@ -129,7 +129,7 @@ a {
 .project-entry {
     width: auto;
     height: auto;
-    margin: 100px auto;
+    margin: 100px auto 0px auto;
     display: flex;
     align-items: center;
 }
@@ -153,6 +153,7 @@ a {
 */
 #resume-wrapper {
     margin: auto;
+    margin-top: 100px;
     align-items: center;
 }
 
