@@ -152,8 +152,8 @@ a {
     Resume styles
 */
 #resume-wrapper {
-    width: 50%;
-    margin: 0 auto;
+    margin: auto;
+    align-items: center;
 }
 
 .resume-category {
@@ -185,6 +185,7 @@ a {
 
 .work-entry {
     width: 800px;
+    text-align: justify;
 }
 
 /*
