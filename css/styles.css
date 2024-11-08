@@ -4,10 +4,6 @@ body {
     font-family: "Roboto", Arial, sans-serif;
 }
 
-a {
-    color: black;
-}
-
 /*
     Header styles
 */
@@ -68,6 +64,10 @@ a {
     padding: 10px;
     border-radius: 10%;
     background-color: white;
+}
+
+.nav-item a {
+    color: black;
 }
 
 /*
