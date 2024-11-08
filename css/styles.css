@@ -194,7 +194,7 @@ a {
 */
 #footer-bar {
     width: 100%;
-    margin: 25px 0;
+    margin-top: 25px;
     padding: 10px 0;
     float: left;
     background-color: black;
@@ -216,7 +216,12 @@ a {
 
 .footer-item p {
     float: left;
-    width: 50%;
     margin: 0 auto;
+    text-align: center;
+}
+
+.footer-item a {
+    float: left;
+    margin-left: 5px;
     text-align: center;
 }
