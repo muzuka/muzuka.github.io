@@ -2,123 +2,133 @@
 <head>
     <meta charset="UTF-8">
     <title>Sean Brown</title>
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="../css/styles2.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<header>
-    <div id="HeaderShell">
-        <div id="Name">
-            <h1 class="NameText"> 
-                Sean Brown
-            </h1>
-            <h2 class="NameText">
-                Software Developer
-            </h2>
-        </div>
-        <nav>
-            <a class="NavLink" href="index.html"> Home </a>
-            <a class="NavLink" href="resume.html"> Resume </a>
-            <a class="NavLink" href="projects.html"> Projects </a>
-            <a class="NavLink" href="contact.html"> Contact </a>
+    <header>
+        <nav id="navbar">
+            <div class="navbot">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="index2.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="pages/resume.html">Resume</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
-    </div>
-</header>
+    </header>
 <main>
-    <h1 class="Title">
-        Resume
-    </h1>
+    <section class="ftco-section" id="resume">
+        <div class="container">
+            <h1 class="title">
+                Resume
+            </h1>
+            <div id="resume-wrapper">
+                <div class="resume-category">
+                    <div class="category-title">
+                        <h3> Education </h3>
+                    </div>
+                    <div class="category-content">
+                        <h3> University of Calgary </h3>
+                        <h4> 2016 </h4>
 
-    <div id="Resume-wrapper">
-        <div class="ResumeCategory">
-            <div class="CategoryTitle">
-                <h3> More about me </h3>
-            </div>
-            <div class="CategoryContent">
-                <p id="AboutMeParagraph">
-                I am an independent game developer based in Calgary. 
-                I have a strong passion for designing and programming video games and have strived for excellence in computer graphics. 
-                I have been using Unity for the last year and have gained a lot of experience through game jams and my current project Beach Wars that is in development.
-                    <br>
-                I am a member of the Calgary Game Developers Association. A group dedicated to connecting and supporting game developers in Calgary.
-                I am also a member of Team Zeus's motor controller team. Team Zeus is an electric motorcycle team based at the University of Calgary.
-                </p>
+                        <p> Graduated with a B.Sc. in Computer Science with a concentration in Computer Game Design.
+                        </p>
+                    </div>
+                </div>
+                <div class="resume-category">
+                    <div class="category-title">
+                        <h3> Work Experience </h3>
+                    </div>
+                    <div class="category-content">
+                        <div class="work-entry">
+                            <h3> Unity 3D Developer, <strong>Red Iron Labs.</strong> </h3>
+                            <h4> Sept 2018 - Aug 2024 </h4>
+                            <ul>
+                                <li> Refactored the step system in a large industrial simulation. 
+                                    The new design was able to build out 70 steps and 100+ substeps 
+                                    in only a couple of days. I also built out most of the VR interactions 
+                                    and animations.
+                                </li>
+                                <li> Led the design and development of a cybersecurity app helping hundreds of kids learn about cybersecurity
+                                    through an interactive and educational experience. </li>
+                                <li> Managed an AWS server that ran an FPS game backend. I set up crash detection which would save and
+                                    email a crash log and then restart the server saving developer time. </li>
+                                <li> Developed a new social space for a big update to the game Muffin Fight, I rebuilt the networking system to
+                                    support up to 20 VR players simultaneously. </li>
+                                <li> Accelerated future multiplayer VR development by 30% through the design of a VR avatar solution
+                                    agnostic to framework and networking. </li>
+                            </ul>
+                        </div>
+                        <div class="work-entry">
+                            <h3> Instructor, Programming and Unity for VR, <strong>SAIT</strong> </h3>
+                            <h4> May 2021 - July 2021 </h4>
+                            <ul>
+                                <li> Developed lesson plans and assignments to instruct students in C# programming, Unity, and
+                                    VR development. </li>
+                                <li> Conducted lectures, demonstrations, and group activities in a video call format. </li>
+                                <li> Received positive feedback from students for my expertise, patience, and class structure. My students were
+                                    able to complete a sample training simulation at the end of a month of learning. </li>
+                            </ul>
+                        </div>
+                        <div class="work-entry">
+                            <h3> Mobile App Developer, <strong>Blue Foxes</strong> </h3>
+                            <h4> Jan 2018 - March 2018 </h4>
+                            <ul>
+                                <li> Gathered requirements and developed prototypes of a TaskRabbit-like app for both Android and iOS. </li>
+                                <li> Designed and deployed functional MySQL database with PHP back end to service the app. </li>
+                            </ul>
+                        </div>
+                        <div class="work-entry">
+                            <h3> Freelancer, <strong>Upwork</strong> </h3>
+                            <h4> Sept 2017 - Dec 2017 </h4>
+                            <ul>
+                                <li> Developed a cross-platform mobile game called Smile It's Healthy, compatible with Android
+                                    and iOS devices. </li>
+                                <li> Created a tablet-friendly WebGL Billiards game. </li>
+                                <li> Worked successfully with clients to discover requirements and fulfill them. </li>
+                            </ul>
+                        </div>
+                        <div class="work-entry">
+                            <h3> Unity 3D Developer, <strong>Neojac Entertainment</strong> </h3>
+                            <h4> June 2017 - July 2017 </h4>
+                            <ul>
+                                <li> Implemented a fishing system and lockpicking system connecting to a Java backend. </li>
+                                <li> Managed AWS servers and a MySQL database that serviced the game content. </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="resume-category">
+                    <div class="category-title">
+                        <h3> Volunteering </h3>
+                    </div>
+                    <div class="work-entry">
+                        <h3> CoderDojo Volunteer </h3>
+                        <h4> May 2016 - Aug 2016 </h4>
+                        <ul>
+                            <li> Introduced fundamental coding skills to young beginners. </li>
+                            <li> Followed a structured lesson plan. </li>
+                            <li> Coordinated lessons with two other volunteers. </li>
+                        </ul>
+                    </div>
+                    <div class="work-entry">
+                        <h3> Codeteen Volunteer </h3>
+                        <h4> Sept 2016 - July 2018 </h4>
+                        <ul>
+                            <li> Matched teens to online and offline coding courses. </li>
+                            <li> Mentored and worked through problems with teens. </li>
+                            <li> Created a positive, fun, and enriching environment for teens. </li>
+                            <li> Worked in a team of three. </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
-
-        <div class="ResumeCategory">
-            <div class="CategoryTitle">
-                <h3> Work Experience </h3>
-            </div>
-            <div class="CategoryContent">
-                <h1> Volunteering </h1>
-                <div class="WorkEntry">
-                    <h3> CoderDojo Volunteer </h3>
-                    <h4> May 2016 - Aug 2016 </h4>
-                    <ul>   
-                        <li> Introduced fundamental coding skills to young beginners. </li>
-                        <li> Followed a structured lesson plan. </li>
-                        <li> Coordinated lessons with two other volunteers. </li>
-                    </ul>
-                </div>
-                <div class="WorkEntry">
-                    <h3> Codeteen Volunteer </h3>
-                    <h4> 2016 - present </h4>
-                    <ul>   
-                        <li> Matched teens to online and offline coding courses. </li>
-                        <li> Mentored and worked through problems with teens. </li>
-                        <li> Created a positive, fun, and enriching environment for teens. </li>
-                        <li> Worked in a team of three. </li>
-                    </ul>
-                </div>
-                <h1> Summer jobs </h1>
-                <div class="WorkEntry">
-                    <h3> Manual Labourer </h3>
-                    <h4> July 2013 </h4>
-                    <ul>   
-                        <li> Followed the instructions of a supervisor as safely as possible. </li>
-                        <li> Cleaned surfaces and debris to pass a health inspection. </li>
-                        <li> Worked in a team of 8-10 people to accomplish a task assigned each day. </li>
-                    </ul>
-                </div>
-                <div class="WorkEntry">
-                    <h3> Calgary Stampede </h3>
-                    <h4> 2008 - 2014 </h4>
-                    <ul>   
-                        <li> Worked a variety of jobs over the years. </li>
-                        <li> Earned three superhost awards for my strong work ethic and stellar teamwork. </li>
-                        <li> Worked in teams of five to eight people. </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="ResumeCategory">
-            <div class="CategoryTitle">
-                <h3> Education </h3>
-            </div>
-            <div class="CategoryContent">
-                <h3> University of Calgary </h3>
-                <h4> 2015 </h4>
-
-                <p> Graduated with a B.Sc. in Computer Science with a concentration in Computer Game Design. </p>
-            </div>
-        </div>
-
-        <div class="ResumeCategory">
-            <div class="CategoryTitle">
-                <h3> Organizations </h3>
-            </div>
-            <div class="CategoryContent">
-                <div> 
-                    <h3> Team Zeus </h3>
-                    <p> Motorcontroller team </p>
-                </div>
-                <div>
-                    <h3> Calgary Game Developers Association </h3>
-                </div>
-            </div>
-        </div>
-</div>
+    </section>
 </main>
 <footer>
     <div id="FooterBar">
