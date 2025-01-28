@@ -7,59 +7,140 @@ html {
 }
 
 body {
-    background: #FFEAAC;
+    background: #bdcad9;
 }
 
 div {
-     border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 /*
     Header styles
 */
-#HeaderShell {
+#navbar {
+    display: flex;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.navbot {
+    display: flex;
+    justify-content: flex-end;
     width: 100%;
-    padding: 10px 10px;
 }
 
-.NameText {
-    text-align: center;
-    margin: 1px auto;
+.navtop h1 {
+    color: white;
 }
 
-#Name {
-    margin: 10px auto;
-    width: 25%;
+.navbar-nav {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
 }
 
-nav {
-    margin: 10px auto;
-    width: 35%;
+.nav-item {
+    font-size: 15px;
+    font-weight: 500;
+    position: relative;
+    margin: 16px;
+    padding: 10px;
+    border-radius: 10%;
+    background-color: white;
 }
 
-.NavLink {
-    margin: 0 25px;
-    text-decoration: none;
+.nav-item a {
+    color: black;
+}
+
+/*
+    Body Styles
+*/
+
+#about-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-inline: 50px;
+    border-bottom: dashed;
+    padding-bottom: 30px;
+}
+
+
+#projects-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.project-entry {
+    margin: 20px;
+}
+
+.project-entry a img {
+    height: auto;
+}
+
+#profile-pic {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#profile-desc {
+    padding: 0 20px;
+    max-width: 100vh;
+}
+
+#profile-pic img {
+    height: auto;
+    width: 200px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 0;
 }
 
 /*
     Footer styles
 */
-#FooterBar {
+#footer-bar {
     width: 100%;
-    margin: 25px 0;
+    margin-top: 25px;
     padding: 10px 0;
     float: left;
     background-color: black;
 }
 
-.FooterItem {
+.footer-item {
     margin: 0 50px;
     width: 10%;
     float: left;
     color: white;
 }
 
-footer div div p {
+.social-link {
+    margin-right: 5px;
+    width: 25px;
+    height: 25px;
+    float: left;
+}
+
+.footer-item p {
+    float: left;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-item a {
+    float: left;
+    margin-left: 5px;
     text-align: center;
 }

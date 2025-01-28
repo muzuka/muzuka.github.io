@@ -2,36 +2,92 @@
 <head>
     <meta charset="UTF-8">
     <title>Sean Brown</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Sean Brown">
+    <meta name="description" content="Sean Brown Personal Site">
     <link href="css/styles2.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <header>
-    <div id="HeaderShell">
-        <div id="Name">
-            <h1 class="NameText"> 
-                Sean Brown
-            </h1>
-            <h2 class="NameText">
-                Software Developer
-            </h2>
+    <nav id="navbar">
+        <div class="navbot">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="index2.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="pages/resume.html">Resume</a>
+                </li>
+            </ul>
         </div>
-    </div>
+    </nav>
 </header>
 <main>
+    <div id="about-container">
+        <div id="profile-pic">
+            <img src="images/Profile.png" width="1043" height="1397" alt="Sean Brown">
+        </div>
+        <div id="profile-desc">
+            <p>
+                Hello! I'm Sean Brown, a software developer specializing in games and VR.
+                I live in Calgary, AB.
+                <br>
+                I've been working for the past six years as a VR developer working on all kinds of
+                awesome games and simulations. Before that I worked on games and apps as a freelancer.
+                I love supporting the Alberta game development scene and I owe a lot to them. 
+                I was on the board of the Calgary Game Developers Association for two years.
+                <br>
+                I'm really proud of all the games I've helped make and made myself. I've worked
+                on multiplayer VR games, FPS games, and even an MMO briefly. I love teaching and have
+                taught kids game design and web design. I even taught a VR bootcamp at SAIT. (That was crazy
+                but fun!)
+            </p>
+        </div>
+    </div>
+    <div id="projects-container">
+        <div class="project-entry">
+            <a href="pages/Projects/MuffinFight.html">
+                <img src="images/MuffinFight.PNG" width="500" height="400"/></a>
+        </div>
+        <div class="project-entry">
+            <a href="pages/Projects/Youthlink.html">
+                <img src="images/Youthlink.png" width="500" height="400"/></a>
+        </div>
+        <div class="project-entry">
+            <a href="pages/Projects/SocialVR.html">
+                <img src="images/SocialVR.PNG" width="500" height="400"/></a>
+        </div>
+        <div class="project-entry">
+            <a href="pages/Projects/TEAL.html">
+                <img src="images/TEAL.PNG" width="500" height="400"/></a>
+        </div>
+        <div class="project-entry">
+            <a href="pages/Projects/Zuldaxx.html">
+                <img src="images/Zuldaxx.jpg" width="500" height="400"/></a>
+        </div>
+        <div class="project-entry">
+            <a href="pages/Projects/Smile.html">
+                <img src="images/Smile.PNG" width="500" height="400"/></a>
+        </div>
+    </div>
 </main>
 <footer>
-    <div id="FooterBar">
-        <div class="FooterItem">
-            <p> Phone </p>
+    <div id="footer-bar" class="row">
+        <div class="footer-item col">
+            <p> Email: seanbrown7935@gmail.com </p>
         </div>
-        <div class="FooterItem">
-            <p> Email </p>
-        </div>
-        <div class="FooterItem">
+        <div class="footer-item col">
             <p> Social </p>
+            <a href="https://www.linkedin.com/in/sean-brown-9272b962">
+                <img class="social-link" src="images/LI-In-Bug.png" width="635" height="540" alt="linked in">
+            </a>
+            <a href="https://muzuka.itch.io/">
+                <img class="social-link" src="images/itchio-logo-textless-white.png" width="1200" height="1080"
+                    alt="Itch">
+            </a>
         </div>
-        <div class="FooterItem">
-            <p> Copyright </p>
+        <div class="footer-item col">
+            <p> Copyright 2018 </p>
         </div>
     </div>
 </footer>
