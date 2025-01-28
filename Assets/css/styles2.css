@@ -108,6 +108,38 @@ div {
     margin: 0;
 }
 
+.project-profile {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#project-pic {
+    padding: 50px;
+}
+
+#project-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 400px;
+    min-width: 300px;
+    padding: 50px;
+}
+
+@media (max-width: 1115px) {
+    .project-profile {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #project-desc {
+        text-align: center;
+        max-width: 600px;
+        align-items: center;
+    }
+}
+
 /*
     Footer styles
 */
