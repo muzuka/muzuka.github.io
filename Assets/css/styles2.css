@@ -103,8 +103,6 @@ div {
 #profile-pic img {
     height: auto;
     width: 200px;
-    border-radius: 50%;
-    border: 1px solid black;
     margin: 0;
 }
 
@@ -125,6 +123,14 @@ div {
     max-width: 400px;
     min-width: 300px;
     padding: 50px;
+}
+
+#project-desc h1 {
+    margin-bottom: 0px;
+}
+
+#project-desc h3:first-of-type {
+    margin: 0px;
 }
 
 @media (max-width: 1115px) {
