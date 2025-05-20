@@ -1,37 +1,24 @@
+html {
+    box-sizing: border-box;
+}
 
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 
 body {
-    font-family: "Roboto", Arial, sans-serif;
+    background: #bdcad9;
+}
+
+div {
+    /* border: 1px solid black; */
 }
 
 /*
     Header styles
 */
-
-.name-text {
-    text-align: center;
-    margin: 1px;
-}
-
-#name {
-    margin: 10px auto;
-    width: 25%;
-    border-bottom: 1px solid brown;
-}
-
-#nav-box {
-    width: 50%;
-    margin: auto;
-    font-weight: bold;
-    font-size: 16px;
-}
-
-.navbar {
+#navbar {
     display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #38414D;
 }
 
 .fixed-top {
@@ -42,7 +29,9 @@ body {
 }
 
 .navbot {
-    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
 }
 
 .navtop h1 {
@@ -50,9 +39,8 @@ body {
 }
 
 .navbar-nav {
-    margin-right: 0;
+    display: flex;
     list-style-type: none;
-    overflow: hidden;
     flex-direction: row;
 }
 
@@ -71,21 +59,17 @@ body {
 }
 
 /*
-    Main styles
+    Body Styles
 */
-
-.ftco-section {
-    width: 100%;
-    padding-top: 20px;
-}
-
-.container {
-    margin-right: auto;
-    margin-left: auto;
-}
 
 #about-container {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-inline: 50px;
+    border-bottom: dashed;
+    padding-bottom: 30px;
 }
 
 #profile-pic {
@@ -95,105 +79,94 @@ body {
 
 #profile-desc {
     padding: 0 20px;
-    margin: auto;
-}
-
-#profile-desc p {
-    background: rgb(180 180 180 / 50%);
+    max-width: 100vh;
 }
 
 #profile-pic img {
     height: auto;
     width: 200px;
-    border-radius: 50%;
-    border: 1px solid black;
     margin: 0;
 }
 
-#about {
-    margin-top: 100px;
-}
-
-#about container {
+#projects-container {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
-}
-
-#about-me-box h1 {
-    font-size: 64px;
-    margin: 0;
-}
-
-/*
-    Project styles
-*/
-
-.title {
-    width: 25%;
+    flex-wrap: wrap;
+    padding: 30px;
 }
 
 .project-entry {
-    width: auto;
+    margin: 20px;
+    position: relative;
+}
+
+.project-entry a img {
     height: auto;
-    margin: 100px auto 0px auto;
+}
+
+.hover-image:hover {
+    background-color: aqua;
+    opacity: 0.5;
+}
+
+.hover-image:hover + .hover-block {
+    opacity: 1;
+}
+
+.hover-block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5); /* Optional background for readability */
+  padding: 10px 20px;
+  border-radius: 8px;
+  opacity: 0;
+  font-family: sans-serif;
+  text-shadow: 1px 1px 4px black;
+}
+
+.project-profile {
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.project-entry img {
-    width: 40%;
-    height: auto;
-    margin: 10px;
+#project-pic {
+    padding: 50px;
 }
 
-.project-desc {
-    margin: 0px 20px;
+#project-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 400px;
+    min-width: 300px;
+    padding: 50px;
 }
 
-#projects {
-    background-color: #F9F9F9;
+#project-desc h1 {
+    margin-bottom: 0px;
 }
 
-/*
-    Resume styles
-*/
-#resume-wrapper {
-    margin: auto;
-    margin-top: 50px;
-    align-items: center;
+#project-desc h3:first-of-type {
+    margin: 0px;
 }
 
-.resume-category {
-    margin: 10px auto;
-}
+@media (max-width: 1115px) {
+    .project-profile {
+        flex-direction: column;
+        align-items: center;
+    }
 
-.resume-category div {
-    padding: 10px;
-}
-
-.resume-category h2 {
-    text-align: center;
-}
-
-.category-title {
-    height: 90px;
-    width: 180px;
-    background: lightblue;
-}
-
-.category-title h3 {
-    color: white;
-}
-
-.category-content {
-    height: auto;
-    width: auto;
-}
-
-.work-entry {
-    width: 800px;
-    text-align: justify;
+    #project-desc {
+        text-align: center;
+        max-width: 600px;
+        align-items: center;
+    }
 }
 
 /*
@@ -209,7 +182,7 @@ body {
 
 .footer-item {
     margin: 0 50px;
-    width: 10%;
+    width: 20%;
     float: left;
     color: white;
 }
@@ -230,5 +203,6 @@ body {
 .footer-item a {
     float: left;
     margin-left: 5px;
+    margin-right: 5px;
     text-align: center;
 }

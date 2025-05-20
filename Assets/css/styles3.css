@@ -1,0 +1,234 @@
+
+
+body {
+    font-family: "Roboto", Arial, sans-serif;
+}
+
+/*
+    Header styles
+*/
+
+.name-text {
+    text-align: center;
+    margin: 1px;
+}
+
+#name {
+    margin: 10px auto;
+    width: 25%;
+    border-bottom: 1px solid brown;
+}
+
+#nav-box {
+    width: 50%;
+    margin: auto;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #38414D;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.navbot {
+    height: 100%;
+}
+
+.navtop h1 {
+    color: white;
+}
+
+.navbar-nav {
+    margin-right: 0;
+    list-style-type: none;
+    overflow: hidden;
+    flex-direction: row;
+}
+
+.nav-item {
+    font-size: 15px;
+    font-weight: 500;
+    position: relative;
+    margin: 16px;
+    padding: 10px;
+    border-radius: 10%;
+    background-color: white;
+}
+
+.nav-item a {
+    color: black;
+}
+
+/*
+    Main styles
+*/
+
+.ftco-section {
+    width: 100%;
+    padding-top: 20px;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#about-container {
+    display: flex;
+}
+
+#profile-pic {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#profile-desc {
+    padding: 0 20px;
+    margin: auto;
+}
+
+#profile-desc p {
+    background: rgb(180 180 180 / 50%);
+}
+
+#profile-pic img {
+    height: auto;
+    width: 200px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 0;
+}
+
+#about {
+    margin-top: 100px;
+}
+
+#about container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#about-me-box h1 {
+    font-size: 64px;
+    margin: 0;
+}
+
+/*
+    Project styles
+*/
+
+.title {
+    width: 25%;
+}
+
+.project-entry {
+    width: auto;
+    height: auto;
+    margin: 100px auto 0px auto;
+    display: flex;
+    align-items: center;
+}
+
+.project-entry img {
+    width: 40%;
+    height: auto;
+    margin: 10px;
+}
+
+.project-desc {
+    margin: 0px 20px;
+}
+
+#projects {
+    background-color: #F9F9F9;
+}
+
+/*
+    Resume styles
+*/
+#resume-wrapper {
+    margin: auto;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.resume-category {
+    margin: 10px auto;
+}
+
+.resume-category div {
+    padding: 10px;
+}
+
+.resume-category h2 {
+    text-align: center;
+}
+
+.category-title {
+    height: 90px;
+    width: 180px;
+    background: lightblue;
+}
+
+.category-title h3 {
+    color: white;
+}
+
+.category-content {
+    height: auto;
+    width: auto;
+}
+
+.work-entry {
+    width: 800px;
+    text-align: justify;
+}
+
+/*
+    Footer styles
+*/
+#footer-bar {
+    width: 100%;
+    margin-top: 25px;
+    padding: 10px 0;
+    float: left;
+    background-color: black;
+}
+
+.footer-item {
+    margin: 0 50px;
+    width: 10%;
+    float: left;
+    color: white;
+}
+
+.social-link {
+    margin-right: 5px;
+    width: 25px;
+    height: 25px;
+    float: left;
+}
+
+.footer-item p {
+    float: left;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-item a {
+    float: left;
+    margin-left: 5px;
+    text-align: center;
+}
