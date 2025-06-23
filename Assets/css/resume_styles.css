@@ -1,0 +1,42 @@
+
+/*
+    Resume page specific styles
+*/
+
+.title {
+    margin-left: 20px;
+}
+
+#resume-wrapper {
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.resume-category {
+    margin: 20px;
+}
+
+.resume-category div {
+    padding: 10px;
+}
+
+.category-title {
+    height: 90px;
+    width: 360px;
+}
+
+.category-title h1 {
+    color: black;
+}
+
+.category-content {
+    height: auto;
+    width: auto;
+}
+
+.work-entry {
+    width: 800px;
+    text-align: justify;
+}
