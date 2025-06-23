@@ -1,3 +1,8 @@
+
+/*
+    Site wide styles
+*/
+
 html {
     box-sizing: border-box;
 }
@@ -100,18 +105,19 @@ div {
 .project-entry {
     margin: 20px;
     position: relative;
+    display: inline-block;
 }
 
 .project-entry a img {
     height: auto;
 }
 
-.hover-image:hover {
+.project-entry:hover .hover-image {
     background-color: aqua;
     opacity: 0.5;
 }
 
-.hover-image:hover + .hover-block {
+.project-entry:hover .hover-block {
     opacity: 1;
 }
 
