@@ -139,10 +139,17 @@ div {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
 }
 
 #project-pic {
-    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+#project-pic iframe {
+    margin-top: 20px;
 }
 
 #project-desc {
