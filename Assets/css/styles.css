@@ -110,6 +110,7 @@ div {
 
 .project-entry a img {
     height: auto;
+    border-radius: 50px;
 }
 
 .project-entry:hover .hover-image {
@@ -187,15 +188,16 @@ div {
 */
 #footer-bar {
     width: 100%;
-    margin-top: 25px;
-    padding: 10px 0;
-    float: left;
+    padding: 15px;
     background-color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .footer-item {
-    margin: 0 50px;
-    width: 20%;
+    margin: 20px 50px;
     float: left;
     color: white;
 }
