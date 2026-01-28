@@ -186,6 +186,11 @@ div {
 /*
     Footer styles
 */
+a p {
+    color: white;
+    text-decoration: underline;
+}
+
 #footer-bar {
     width: 100%;
     padding: 15px;
@@ -211,7 +216,7 @@ div {
 
 .footer-item p {
     float: left;
-    margin: 0 auto;
+    margin: 0 10px;
     text-align: center;
 }
 
