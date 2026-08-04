@@ -3,8 +3,16 @@
     Site wide styles
 */
 
-html {
-    box-sizing: border-box;
+html, :root {
+    --bg-primary: #bdcad9;
+    --bg-nav: white;
+    --bg-block: white;
+    --bg-project: aqua;
+
+    --footer-text: white;
+    --nav-text: black;
+
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 *, *:before, *:after {
@@ -12,7 +20,7 @@ html {
 }
 
 body {
-    background: #bdcad9;
+    background: var(--bg-primary);
 }
 
 div {
@@ -40,7 +48,7 @@ div {
 }
 
 .navtop h1 {
-    color: white;
+    color: var(--bg-nav);
 }
 
 .navbar-nav {
@@ -56,11 +64,11 @@ div {
     margin: 16px;
     padding: 10px;
     border-radius: 10%;
-    background-color: white;
+    background-color: var(--bg-nav);
 }
 
 .nav-item a {
-    color: black;
+    color: var(--nav-text);
 }
 
 /*
@@ -85,6 +93,7 @@ div {
 #profile-desc {
     padding: 0 20px;
     max-width: 100vh;
+    
 }
 
 #profile-pic img {
@@ -114,7 +123,7 @@ div {
 }
 
 .project-entry:hover .hover-image {
-    background-color: aqua;
+    background-color: var(--bg-project);
     opacity: 0.5;
 }
 
@@ -122,17 +131,22 @@ div {
     opacity: 1;
 }
 
+.hover-image {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
 .hover-block {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: var(--bg-block);
   background-color: rgba(0, 0, 0, 0.5); /* Optional background for readability */
   padding: 10px 20px;
   border-radius: 8px;
   opacity: 0;
-  font-family: sans-serif;
+  transition: opacity 0.3s ease-in-out;
   text-shadow: 1px 1px 4px black;
 }
 
@@ -187,7 +201,7 @@ div {
     Footer styles
 */
 a p {
-    color: white;
+    color: var(--footer-text);
     text-decoration: underline;
 }
 
@@ -204,7 +218,7 @@ a p {
 .footer-item {
     margin: 20px 50px;
     float: left;
-    color: white;
+    color: var(--footer-text);
 }
 
 .social-link {
@@ -212,6 +226,12 @@ a p {
     width: 25px;
     height: 25px;
     float: left;
+    transform: translateY(0);
+    transition: transform 0.2s ease-in-out;
+}
+
+.social-link:hover {
+    transform: translateY(-4px);
 }
 
 .footer-item p {
